@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /*отступ для заголовка*/
+    padding: 0; /*внутренние отступы вокруг текста в заглавке*/
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    text-align: center; /* понишает текст по сентру*/
+    background-color: orange;
+    padding: 20px;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.banner {
+    width: 100%;
+    max-width: 700px; /* ограничена 600px*/
+    border-radius: 100px; /*округляет углы*/
+    margin: 15px auto;
+}
+
+.main {
+    padding: 20px;
+    text-align: center;
+}
+
+.menuLink {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(249 115 22) ; /* фоновый цвет (взято из tailwind)*/
+    color: #fff;  /* цвет шрифта */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.menulink:hover {
+    background-color: rgb(234 88 12); /* цвет когда ты наводишь курсором (взято из tailwind)*/
+}
+
+.menu-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.menu-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.menu-table th {
+    background-color: orange ; /*Оранжевый фон для заголовков таблицы*/
+}
+
+.menu-table tr:nth-child(even) {
+    background-color: orange;
+}
